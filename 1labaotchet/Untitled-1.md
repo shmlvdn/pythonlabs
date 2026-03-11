@@ -16,7 +16,7 @@ Moscow, London, Paris
 
 Расстояние вычисляем по формуле ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
 ### Результат всей программы:
-![]([https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631](https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad0.jpg))
+<https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad0.jpg>
 
 ## Завдание 1
 ### Условие: 
