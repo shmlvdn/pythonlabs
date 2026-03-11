@@ -16,7 +16,7 @@ Moscow, London, Paris
 
 Расстояние вычисляем по формуле ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631)
+![]([https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631](https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad0.jpg))
 
 ## Завдание 1
 ### Условие: 
@@ -30,7 +30,7 @@ Moscow, London, Paris
 1. находим площадь круга по формуле S = πr²
 2 - 3. По теореме Пифагора считаем на каком расстоянии от начала координат находится точно, и если данная расстояние от точки до начала координат меньше нашего радиуса, то точка находится внутри окружности и надо вывести True, в обратном случае выводим False
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631)
+![]([https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631](https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad1.jpg))
 
 ## Завдание 2
 ### Условие: 
@@ -39,7 +39,7 @@ Moscow, London, Paris
 ### Описание проделанной работы: 
 Наугад находим нужную комбинацию, которая в итоге выглядит 1 * (2 + 3) * 4 + 5 и выводим результат данного примера
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631)
+![]([https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631](https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad2.jpg))
 
 ## Завдание 3
 ### Условие: 
@@ -52,7 +52,7 @@ Moscow, London, Paris
 ### Описание проделанной работы: 
 Высчитываем по правилам правильные срезу из нашей строки, после чего последовательно выводим определенные срезы которые требуются по условию задачи
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631)
+![]([https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631](https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad3.jpg))
 
 ## Завдание 4
 ### Условие: 
@@ -69,7 +69,7 @@ Moscow, London, Paris
 Для вычисления общего роста складываем полученные значения: p + m + s.
 Выводим на экран рост отца и общий рост семьи в требуемом формате.
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631)
+![]([https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631](https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad4.jpg))
 
 ## Завдание 5
 ### Условие: 
@@ -86,7 +86,7 @@ Moscow, London, Paris
 После этого из списка был удалён слон с использованием метода pop.
 Затем с помощью цикла находим lion и lark. При нахождении элемента его индекс увеличивается на 1, чтобы нумерация клеток начиналась с 1, а не с 0.
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631)
+![]([https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631](https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad5.jpg))
 
 ## Завдание 6
 ### Условие: 
@@ -97,7 +97,7 @@ Moscow, London, Paris
 Сначала используем список violator_songs_list, содержащий название песни и её длительность. Длительность нужных песен ('Halo', 'Enjoy the Silence' и 'Clean') получаем по индексам списка. Затем значения складываем и результат округляем до двух знаков после запятой с помощью функции round. После этого итоговое время выводим на экран.
 Далее используем словарь violator_songs_dict, где ключом является название песни, а значением её длительность. Длительность песен 'Sweetest Perfection', 'Policy of Truth' и 'Blue Dress' получаем по ключам словаря. Затем значения складываем и результат округляем до целого числа с помощью функции round. После этого итоговое время выводим на экран.
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631)
+![]([https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631](https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad6.jpg))
 
 ## Задание 7
 ### Условие: 
@@ -113,7 +113,7 @@ Moscow, London, Paris
 Пятое слово: берем буквы с 17 по 21 из пятого элемента в обратном порядке (индексы 16:21 с шагом -1)
 Полученные слова выводится на консоль через пробел, образуя расшифрованное сообщение на русском языке.
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631)
+![]([https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631](https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad7.jpg))
 
 ## Задание 8
 ### Условие: 
@@ -133,7 +133,7 @@ Moscow, London, Paris
 Разность множеств (difference) - выведены цветы, растущие на лугу, но отсутствующие в саду
 Использование множеств позволило автоматически удалить дубликаты и применить стандартные операции теории множеств для анализа данных.
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631)
+![]([https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631](https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad8.jpg))
 
 ## Задание 9
 ### Условие: 
@@ -149,7 +149,7 @@ Moscow, London, Paris
 пироженное: пятерочка (59.99) и магнит (62.99)
 Структура словаря sweets позволяет быстро получить информацию о том, в каких магазинах выгоднее всего купить конкретный продукт.
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631)
+![]([https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631](https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad9.jpg))
 
 ## Задание 10
 ### Условие: 
@@ -177,4 +177,4 @@ store - содержит информацию о количестве и цен�
 Результаты выведены в формате: "Товар: Х шт, Y руб"
 Использована вложенная структура данных: словарь словарей и списков, что позволяет хранить и извлекать информацию о разных партиях одного товара с разными ценами и количеством.
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631)
+![]([https://github.com/shmlvdn/pythonlabs/commit/a727399354dc127003b9b1faadb65cd47be29631](https://github.com/shmlvdn/pythonlabs/blob/main/image1/zad10.jpg))
