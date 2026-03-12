@@ -36,3 +36,5 @@
 В конце выводится список найденных чисел и соответствующих им M.
 ### Результат всей программы:
 ![](https://github.com/shmlvdn/pythonlabs/blob/main/image2/zad3.jpg)
+## Использованные русурсы 
+1. [FAQ по курсу “Пайтон с нуля”](https://docs.python.org/3/search.html?)
