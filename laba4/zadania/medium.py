@@ -24,14 +24,25 @@ def hello2(name):
     return f"Привет, {name}!"
 
 
+def recursive_sum(n):
+    # Рекурсивно вычисляет сумму чисел от 1 до n
+    if n <= 0:
+        return 0
+    return n + recursive_sum(n - 1)
+
+
 print("С ограничением")
 print(hello("Диана"))   
 print(hello("Ксюша"))   
 print(hello("Юлия"))   
 print(hello("Игорь"))   
 
-print("\n Без ограничения")
+print("\nБез ограничения")
 print(hello2("Диана"))   
 print(hello2("Ксюша"))   
 print(hello2("Юлия"))   
 print(hello2("Игорь"))   
+
+print("\nРекурсивная функция:")
+print("Сумма чисел от 1 до 5:", recursive_sum(5))
+print("Сумма чисел от 1 до 10:", recursive_sum(10))
