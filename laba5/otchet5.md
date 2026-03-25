@@ -9,4 +9,4 @@
 ![](https://github.com/shmlvdn/pythonlabs/blob/main/laba5/image5.jpg)
 ## Список использованных источников:
 * [Язык разметки Markdown](https://doka.guide/tools/markdown/)
-* [Основы функционального программирования на Python]([https://pythonworld.ru/tipy-dannyx-v-python/spiski-list-funkcii-i-metody-spiskov.html](https://habr.com/ru/articles/555378/))
+* [Основы функционального программирования на Python](https://habr.com/ru/articles/555378/)
