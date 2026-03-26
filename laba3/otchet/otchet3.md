@@ -10,19 +10,20 @@
 Если элемент — число, добавляет его как строку.
 Если элемент — список, вызывает саму себя для этого списка.
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/blob/main/laba3/image/bez1.png)
+![]([https://github.com/shmlvdn/pythonlabs/blob/main/laba3/image/bez1.png](https://vk.com/away.php?to=https%3A%2F%2Fgithub.com%2Fshmlvdn%2Fpythonlabs%2Fblob%2Fmain%2Flaba3%2Fimage%2Fbez11.jpg&utf=1))
 ### Функция с рекурсией.
 Функция f(x) рекурсивно преобразует список (включая вложенные) в строку, соединяя все элементы подряд без разделителей, используя первый элемент и хвост списка.
 Если x — не список (например, число) -> возвращает его как строку.
 Если x — пустой список -> возвращает пустую строку.
 Если x — список с элементами -> возвращает f(первый элемент) + f(остаток списка).
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/blob/main/laba3/image/recurs1.jpg)
+![]([https://github.com/shmlvdn/pythonlabs/blob/main/laba3/image/recurs1.jpg](https://github.com/shmlvdn/pythonlabs/blob/main/laba3/image/Q0VG8t4-eU9PeO0FNR9dATTVA0fPBTslwNLQ5OUO4u5GeJJ1sp0NFOkBWkKKNHglDhzZt4Y_HrMEwbvX1auNosoT.jpg))
 
 ## Задание 2
 ### Условие:
 Напишите две функции для решения задач своего варианта - с использованием рекурсии и без.
-Функция для расчёта a_i = a_i-2 + a_i-1 / (2 ** i - 1).
+Функция для расчёта 
+$a_i = a_i-2 + a_i-1 / (2 ** i - 1)$
 ### Описание проделанной работы:
 ### Функция без рекурсии. 
 Реализована рекуррентная функция вычисления последовательности
