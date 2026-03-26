@@ -1,10 +1,13 @@
 def f(x):
-    if not isinstance(x, list):
-        return str(x)
-    if len(x) == 0:
-        return ""
-    return f(x[0]) + f(x[1:])
-l0 = [1, 2, 3, 4, 5]
-l1 = [[1, 2], [3, [[4]], 5]]
-print(f(l0))
-print(f(l1))
+    result = []
+
+    def l(n):
+        if type(n) == list:
+            for element in n:
+                l(element)
+        else:
+            result.append(str(n))
+    l(x)
+    return ' -> '.join(result) + ' -> None'
+
+print(f([1, [2, [3, [4, [5]]]]]))
