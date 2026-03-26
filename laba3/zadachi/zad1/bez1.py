@@ -1,21 +1,13 @@
-def f(x: list) -> str:
-    if not x:
-        return ""
-    
-    result = ""
-    stack = list(x)
-    
+def f(x):
+    result = []
+    stack = [x]
     while stack:
         element = stack.pop()
-        
-        if isinstance(element, list):
-            stack.extend(reversed(element))
+        if type(element) == list:
+            for n in reversed(element):
+                stack.append(n)
         else:
-            result = str(element) + result
-    return result
+            result.append(str(element))
+    return ' -> '.join(result) + ' -> None'
 
-l0 = [1, 2, 3, 4, 5]
-l1 = [1, [2], [3, [[4]]], 5]
-
-print(f(l0)) 
-print(f(l1))
+print(f([1, [2, [3, [4, [5]]]]]))
