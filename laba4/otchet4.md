@@ -6,7 +6,7 @@
 ### Описание проделанной работы:
 Реализована функция unique, которая возвращает только новые уникальные элементы при каждом вызове. Добавлен декоратор my_decorator для вывода сообщений о начале и завершении работы функции. Замыкание позволяет сохранять историю переданных элементов между вызовами.
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/blob/main/laba4/image4/1.jpg)
+![](https://github.com/shmlvdn/pythonlabs/blob/main/laba4/image4/Ip40xOJwI3asck4wEXPxvaAhsQEh6w8xSW9oRv03c0zfsGN2V20Pik7w5RKNue7iWxp9jMvPQZaoKf3FVGGsJiyK.jpg)
 
 ## Задание 2
 ### Условие:
