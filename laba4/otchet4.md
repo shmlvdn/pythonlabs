@@ -14,7 +14,7 @@
 ### Описание проделанной работы:
 Реализован декоратор limit_calls, ограничивающий количество вызовов функции. При превышении лимита выводится сообщение об ошибке и возвращается None. В примере функция say_hello может быть вызвана не более трёх раз.
 ### Результат всей программы:
-![](https://github.com/shmlvdn/pythonlabs/blob/main/laba4/image4/2.jpg)
+![](https://github.com/shmlvdn/pythonlabs/blob/main/laba4/image4/8vaNBKB2wr2wdI26xrW531CwWOgVHRO6e7IgTpbeKfQLZDhZHXQ4z19WVKS5SPdD2G9EVP_CuC6IDT8Df3AVGi9_.jpg)
 
 ## Задание 1 (medium)
 ### Условие:
