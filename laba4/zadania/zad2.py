@@ -1,23 +1,22 @@
-def limit_calls(n):
+def limit_calls(max_calls):
+    count = 0
+    
     def decorator(func):
-        count = 0
-        def wrapper(*args, **kwargs):
+        def wrapper(*args):
             nonlocal count
-            if count >= n:
-                print("Лимит вызовов исчерпан!")
-                return None
             count += 1
-            return func(*args, **kwargs)
+            if count <= max_calls:
+                return func(*args)
+            else:
+                return None
         return wrapper
     return decorator
+@limit_calls(4)
+def say_hello():
+    print("Привет!")
 
-
-# Пример использования
-@limit_calls(3)
-def say_hello(name):
-    return f"Привет, {name}!"
-
-print(say_hello("Диана"))   
-print(say_hello("Ксюша"))   
-print(say_hello("Юлия"))   
-print(say_hello("Игорь"))   
+say_hello()
+say_hello()
+say_hello()
+say_hello()  
+say_hello()  
