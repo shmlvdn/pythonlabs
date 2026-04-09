@@ -1,17 +1,19 @@
-# Декоратор, который просто выводит сообщение перед вызовом функции
-def my_decorator(func):
-    def wrapper(*args, **kwargs):
-        print("Вызывается функция...")
-        result = func(*args, **kwargs)
-        print("Функция завершила работу")
-        return result
-    return wrapper
+def limit_calls(max_calls):
+    count = 0
+    def decorator(func):
+        def wrapper(*args):
+            nonlocal count
+            count += 1
+            if count <= max_calls:
+                return func(*args)
+            return None
+        return wrapper
+    return decorator
 
 
 def unique():
     a = set()
     
-    @my_decorator
     def f(*args):
         spisok = []
         for x in args:
@@ -23,5 +25,8 @@ def unique():
 
 
 u = unique()
-print(u(1, 2, 2, 3, 4))
-print(u(2, 3, 4, 4, 10, 10))
+limited_unique = limit_calls(3)(u)
+
+print(limited_unique(1, 2, 2, 3, 4))
+print(limited_unique(2, 3, 4, 4, 10, 10))  
+print(limited_unique(5, 6, 7))            
