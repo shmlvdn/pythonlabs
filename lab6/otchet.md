@@ -24,3 +24,7 @@ time_calc.py — функция расчёта времени поездки
 Реализовано сохранение отчёта в Excel (библиотека openpyxl). Файл сохраняется на рабочий стол с именем, содержащим дату и время.
 ### Результат всей программы:
 ![](https://github.com/shmlvdn/pythonlabs/blob/main/lab6/p2YPu6ghtTLwpg-t7_N4HWBDKrGWZDh4YDHrotn2XGddYrA_Lot3Osx6T7QW0Mksg2CCBi6gy2Spfbn11ToPrR1S.jpg)
+## Список использованных источников:
+* [Python (основы)](https://doka.guide/tools/markdown/](https://docs.python.org/3/tutorial/)
+* [Tkinter (графический интерфейс)](https://habr.com/ru/articles/555378/](https://docs.python.org/3/library/tkinter.html)
+* [Openpyxl (работа с Excel)](https://openpyxl.readthedocs.io/)
