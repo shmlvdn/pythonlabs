@@ -23,11 +23,11 @@ main.py — главный модуль с GUI на Tkinter:
 Итог: Реализован функционал добавления, удаления и отметки выполнения задач с сохранением в БД и обработкой ошибок через собственные исключения.
 
 ### Результат всей программы:
-![]()
+![](https://github.com/shmlvdn/pythonlabs/blob/main/lab8/GdIPEtsUhJv83Efj1_izzjn9aLf0Wfs7OMYLtOGVqNI2h2Yu-t2V4CGRSS9NR3kuEsFpETtfei0hikBjkd3dNkMJ.jpg)
 
 ## Список использованных источников:
 * [Курсоры](https://metanit.com/python/tkinter/6.3.php)
-* [Tkinter (графический интерфейс)](https://habr.com/ru/articles/555378/](https://docs.python.org/3/library/tkinter.html)
+* [Tkinter (графический интерфейс)](https://docs.python.org/3/library/tkinter.html)
 * [Генерация исключений и создание своих типов исключений](https://metanit.com/python/tutorial/2.21.php)
 * [Определение моделей в SQLAlchemy](https://metanit.com/python/database/3.2.php)
 * [GUI-приложения с помощью Python-Tkinter](https://habr.com/ru/companies/otus/articles/903526/)
